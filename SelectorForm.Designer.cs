@@ -35,6 +35,7 @@ namespace KurgasovLabs
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button19 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -59,7 +60,6 @@ namespace KurgasovLabs
             this.button17 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -157,6 +157,20 @@ namespace KurgasovLabs
             this.panel2.Size = new System.Drawing.Size(210, 326);
             this.panel2.TabIndex = 4;
             // 
+            // button19
+            // 
+            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button19.BackColor = System.Drawing.SystemColors.Control;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Location = new System.Drawing.Point(13, 125);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(184, 23);
+            this.button19.TabIndex = 4;
+            this.button19.Text = "BasicMath";
+            this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -238,7 +252,7 @@ namespace KurgasovLabs
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(184, 23);
             this.button7.TabIndex = 3;
-            this.button7.Text = "Sells";
+            this.button7.Text = "NewButton";
             this.button7.UseVisualStyleBackColor = false;
             // 
             // button8
@@ -251,7 +265,7 @@ namespace KurgasovLabs
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(184, 23);
             this.button8.TabIndex = 2;
-            this.button8.Text = "Birthday";
+            this.button8.Text = "NewButton";
             this.button8.UseVisualStyleBackColor = false;
             // 
             // label3
@@ -276,7 +290,7 @@ namespace KurgasovLabs
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(184, 23);
             this.button9.TabIndex = 0;
-            this.button9.Text = "HelloWorld";
+            this.button9.Text = "NewButton";
             this.button9.UseVisualStyleBackColor = false;
             // 
             // panel4
@@ -306,7 +320,7 @@ namespace KurgasovLabs
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(184, 23);
             this.button10.TabIndex = 3;
-            this.button10.Text = "Sells";
+            this.button10.Text = "NewButton";
             this.button10.UseVisualStyleBackColor = false;
             // 
             // button11
@@ -319,7 +333,7 @@ namespace KurgasovLabs
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(184, 23);
             this.button11.TabIndex = 2;
-            this.button11.Text = "Birthday";
+            this.button11.Text = "NewButton";
             this.button11.UseVisualStyleBackColor = false;
             // 
             // label4
@@ -344,7 +358,7 @@ namespace KurgasovLabs
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(184, 23);
             this.button12.TabIndex = 0;
-            this.button12.Text = "HelloWorld";
+            this.button12.Text = "NewButton";
             this.button12.UseVisualStyleBackColor = false;
             // 
             // panel5
@@ -374,7 +388,7 @@ namespace KurgasovLabs
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(184, 23);
             this.button13.TabIndex = 3;
-            this.button13.Text = "Sells";
+            this.button13.Text = "NewButton";
             this.button13.UseVisualStyleBackColor = false;
             // 
             // button14
@@ -387,7 +401,7 @@ namespace KurgasovLabs
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(184, 23);
             this.button14.TabIndex = 2;
-            this.button14.Text = "Birthday";
+            this.button14.Text = "NewButton";
             this.button14.UseVisualStyleBackColor = false;
             // 
             // label5
@@ -412,7 +426,7 @@ namespace KurgasovLabs
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(184, 23);
             this.button15.TabIndex = 0;
-            this.button15.Text = "HelloWorld";
+            this.button15.Text = "NewButton";
             this.button15.UseVisualStyleBackColor = false;
             // 
             // panel6
@@ -442,7 +456,7 @@ namespace KurgasovLabs
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(184, 23);
             this.button16.TabIndex = 3;
-            this.button16.Text = "Sells";
+            this.button16.Text = "NewButton";
             this.button16.UseVisualStyleBackColor = false;
             // 
             // button17
@@ -455,7 +469,7 @@ namespace KurgasovLabs
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(184, 23);
             this.button17.TabIndex = 2;
-            this.button17.Text = "Birthday";
+            this.button17.Text = "NewButton";
             this.button17.UseVisualStyleBackColor = false;
             // 
             // label6
@@ -480,22 +494,8 @@ namespace KurgasovLabs
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(184, 23);
             this.button18.TabIndex = 0;
-            this.button18.Text = "HelloWorld";
+            this.button18.Text = "NewButton";
             this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button19.BackColor = System.Drawing.SystemColors.Control;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(13, 125);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(184, 23);
-            this.button19.TabIndex = 4;
-            this.button19.Text = "BasicMath";
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // SelectorForm
             // 
@@ -509,7 +509,7 @@ namespace KurgasovLabs
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "SelectorForm";
-            this.Text = "SelectorForm";
+            this.Text = "NewButton";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
